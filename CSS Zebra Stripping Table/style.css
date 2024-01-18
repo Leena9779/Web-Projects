@@ -1,0 +1,21 @@
+table, th, td{
+    border: 1px solid whitesmoke;
+}
+table{
+    width: 30%;
+    border-color: black;
+}
+td{
+    text-align: center;
+    
+}
+th{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+tr:nth-child(even){
+    background-color: greenyellow;
+}
+tr:nth-child(1){
+    background-color: #dfd6d6;
+}
